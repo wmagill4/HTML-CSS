@@ -13,8 +13,12 @@ h1, h2, h3, h4, h5 {
 
 /* Navbar */
 .nav-home {
-    color:white;
     background-color: rgba(39, 184, 170, 0.644);
+    color:white;
+}
+
+.nav-home {
+    color:white;
 }
 
 /* Footer */
@@ -34,6 +38,7 @@ h1, h2, h3, h4, h5 {
 /* Classes for the landing page */
 
 .landing-text-box {
+    font-family: "Times New Roman", Times, serif;
     padding:20px;
     background-color:white;
     color:grey;
@@ -44,9 +49,9 @@ h1, h2, h3, h4, h5 {
 /* Comparisons */
 
 .comparison-box {
+    font-family: "Times New Roman", Times, serif;
     background-color:white;
     color:grey;
-    border:5px solid lightblue;
     padding:20px;
     overflow:auto;
 }
@@ -54,6 +59,7 @@ h1, h2, h3, h4, h5 {
 /*Visualizations */
 
 .main-visual-box {
+    font-family: "Times New Roman", Times, serif;
     background-color:white;
     color:grey;
     padding:20px;
@@ -61,6 +67,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .chart-visual-box {
+    font-family: "Times New Roman", Times, serif;
     background-color:white;
     color:grey;
     padding:20px;
