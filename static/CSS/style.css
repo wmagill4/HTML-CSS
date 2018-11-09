@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5 {
 
 /* Navbar */
 .nav-home {
-
+    color:white;
     background-color: rgba(39, 184, 170, 0.644);
 }
 
@@ -41,27 +41,7 @@ h1, h2, h3, h4, h5 {
     overflow:auto;
 }
 
-/* Classes for visualization pages */
-
-.main-visual-box {
-    background-color:white;
-    color:grey;
-    border: 5px solid lightblue;
-    padding:20px;
-    overflow:auto;
-}
-
-.chart-visual-box {
-    background-color:white;
-    color:grey;
-    border: 5px solid lightblue;
-    padding:20px;
-    margin-top:30px;
-    margin-right:10px;
-    overflow:auto;
-}
-
-/* Class for comparisons page */
+/* Comparisons */
 
 .comparison-box {
     background-color:white;
@@ -70,6 +50,26 @@ h1, h2, h3, h4, h5 {
     padding:20px;
     overflow:auto;
 }
+
+/*Visualizations */
+
+.main-visual-box {
+    background-color:white;
+    color:grey;
+    padding:20px;
+    overflow:auto;
+}
+
+.chart-visual-box {
+    background-color:white;
+    color:grey;
+    padding:20px;
+    margin-top:30px;
+    margin-right:10px;
+    overflow:auto;
+}
+
+
 
 /* Media query for changing the navbar coloration when the screen resolution is smaller than 600 px */
 

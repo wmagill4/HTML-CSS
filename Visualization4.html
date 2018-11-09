@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="us-en">
+<head>
+    <!-- Title, utf-8 charset, CSS -->
+    <title>Latitude vs Wind Speed</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<!-- Body -->
+<body>
+    <!-- Bootstrap nav bar-->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Toggle -->
+          <div class="navbar-header my-navbar-small">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Glyphicons -->
+            <a class="navbar-brand nav-home" href="#"><span class="glyphicon glyphicon-plus"></span>&ensp;Latitude Home</a>
+          </div>
+        
+          <!--  -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <!-- Dropdown Links -->
+                  <li><a href="#">Max Temperature</a></li>
+                  <li><a href="#">Humidity</a></li>
+                  <li><a href="#">Cloudiness</a></li>
+                  <li><a href="#">Wind Speed</a></li>
+                </ul>
+                <li><a href="#"><span class="glyphicon glyphicon-th-list"></span>&ensp;Comparison</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-file"></span>&ensp;Data</a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+
+
+    <!-- DIVIDER -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+          <div class="main-visual-box">
+            <h2>Latitude vs. Wind Speed</h2><hr>
+            <img src="static/images/fig4.png" height="470">
+            <p>There does not appear to be much correlation between latitude and wind speed.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+          <div class="chart-visual-box">
+            <h3>Visualization Navigator</h3> <hr>
+            <div class="col-sm-3 col-md-6">
+              <a href="#">
+              <img src="static/images/fig1.png" height="100" style="margin-left:-15px; margin-bottom:5px;">
+              </a>
+            </div>
+            <div class="col-sm-3 col-md-6">
+              <a href="#">
+              <img src="static/images/fig2.png" height="100" style="margin-left:-15px; margin-bottom:5px;">
+              </a>
+            </div>
+            <div class="col-sm-3 col-md-6">
+              <a href="#">
+              <img src="static/images/fig3.png" height="100" style="margin-left:-15px; margin-top:5px;">
+              </a>
+            </div>
+            <div class="col-sm-3 col-md-6">
+              <a href="#">
+              <img src="static/images/fig4.png" height="100" style="margin-left:-15px; margin-top:5px;border: 3px solid green;">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Create a div tag for the footer to display at the bottom of the page, using css to style it -->
+    <div class="footer">
+      <p>© Copyright Coding Bootcamp 2018 &ensp;<span class="glyphicon glyphicon-education"></span></p>
+    </div>
+    <!-- Add necessary bootstrap javascript elements to allow for dropdown menus -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
