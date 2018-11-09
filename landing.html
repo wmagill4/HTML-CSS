@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="us-en">
+<head>
+    <!-- Title, utf-8 charset, CSS -->
+    <title>weather page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<!-- Body -->
+<body>
+    <!-- Bootstrap nav bar-->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header my-navbar-small">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Glyphicons -->
+            <a class="navbar-brand nav-home" href="#"><span class="glyphicon glyphicon-plus"></span>&ensp;Latitude Home</a>
+          </div>
+        
+          <!--  -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <!-- Dropdown Links -->
+                  <li><a href="#">Max Temperature</a></li>
+                  <li><a href="#">Humidity</a></li>
+                  <li><a href="#">Cloudiness</a></li>
+                  <li><a href="#">Wind Speed</a></li>
+                </ul>
+                <li><a href="#"><span class="glyphicon glyphicon-th-list"></span>&ensp;Comparison</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-file"></span>&ensp;Data</a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+
+   <!-- Paragraph -->
+   <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        <div class="landing-text-box">
+          <h2>Summary: Latitude vs. X</h2>
+          <hr><br>
+          <p>
+            <img src="static/images/fig1.png" height="200" style="float: left; margin-right:30px; margin-bottom:30px">
+            The purpose of this project was to analyze how weather changes as you get closer to
+            the equator. To accomplish this, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+            <br><br>
+            After assembling the dataset, we used MatPlotLib to plot various aspects of the weather vs. latitude.
+            Factors we looked at included temperature, cloudiness, wind speed and humidity.. This site provides the
+            source data and visualizations created as part of the analysis, as well as explanations and descriptions
+            of any trends and corelations witnessed.
+          </p>
+        </div>
+      </div>
+
+  <!-- Visualization image links -->
+      <div class="col-sm-12 col-md-5">
+        <div class="landing-text-box">
+          <h2>Visualizations</h2>
+          <hr><br>
+          <a href="#">
+            <img src="static/images/fig1.png" height="135" style="margin-right:5px; margin-bottom:10px;">
+          </a>
+          <a href="#">
+              <img src="static/images/fig2.png" height="135" style="margin-left:5px; margin-bottom:10px;">
+          </a>
+          <br>
+          <a href="#">
+              <img src="static/images/fig3.png" height="135" style="margin-right:5px; margin-top:10px;">
+          </a>
+          <a href="#">
+              <img src="static/images/fig4.png" height="135" style="margin-left:5px; margin-top:10px;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer at bottom of page -->
+  <div class="footer">
+    <p>© Copyright Coding Bootcamp 2018 &ensp;<span class="glyphicon glyphicon-education"></span></p>
+  </div>
+  <!-- Bootstrap stuff for menus-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
